@@ -1,0 +1,508 @@
+
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    background-image: url(./images/background_img.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header-content{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 5%;
+
+}
+
+.header-title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.text1 {
+    font-weight: 400;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+/* 26  section */
+.years{
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    font-style: normal;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+.years-info{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+.header_info {
+    background-color: #FFFFFF;
+    width: 58%;
+    display: flex;
+    gap: 30px;  
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 2%;
+   
+}
+.item {
+    display: flex;  
+    flex-wrap: wrap;
+    width: 58%;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section2 */
+
+.section2_content{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.section2 {
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+  
+}
+
+.arena {
+ 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+
+    max-width: 309px;
+}
+
+.arena-text{
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+
+    max-width: 309px;
+}
+/* Title */
+
+.projects {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+
+    margin: 10% 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+}
+
+.arena-item {
+     display: flex;    
+     gap: 30px; 
+     flex-direction: column;    
+     flex-wrap: wrap;
+     align-items: flex-start;
+     
+}
+
+.item-wraper{
+    display: flex;
+    gap: 30px;
+}
+
+/* Section 3 */
+
+.section3{
+    background-color:  #F7654A;;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+
+   
+}
+
+.section3-title{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+    
+}
+
+.section3-content{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.request{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+
+}
+.button-background{
+ 
+    margin: 73px 59px;   
+    padding: 2%;   
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.section3-wrapper{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+   
+}
+
+/* Section 4 */
+
+/* вся страница section4  */
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* оборачивает всю section4 середину */
+.section4_content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+/* оборачивает заголовок и первые три картинки */
+.info-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+/* заголовок1 */
+.section4-title{
+/* h2 */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+
+    margin: 10% 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+/* первый текст */
+.buildins-text{
+/* h4 */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    
+}
+/* иконка дома */
+.buildings{
+    width: 60px;
+}
+/* див с картинкой текстом и фоном */
+.service_item{
+    background-color: #F7F7F7;
+    display: flex;    
+    gap: 30px; 
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    max-width: 180px; 
+}
+/* див который оборачивает 3 itema */
+
+.icons-1{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 2 part of section 4 */
+
+/* оборачивает заголовок и картинки */
+.info-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+    max-width: 729px;
+    margin: 0 auto;
+   
+}
+
+.icons-2{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Section 4 contacts  ---------------------------- */ 
+
+/* Общий див для контактов */
+.info-contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+  
+}
+
+
+/* Title contacts */
+.contact-title{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+/* Див который оборачивает иконки */
+.contacts-items{
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+   max-width: 729px;
+}
+/* Класс для иконок */
+.img-icons{
+    width: 48px;
+}
+/* Adress phone number e/mail titles */
+.basic-info{
+    /* h3 */
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #999999;
+
+}
+/* street adress  .. number .. time */
+.total-info{
+    /* h3 */
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #000000;
+
+}
+/* color for e-mail */
+.total-info-email{
+    /* h3 */
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #F7654A;
+
+}
+
+
+/* items div / 4 */ /* див с картинкой текстом и фоном */
+.adress{
+    display: flex;    
+    gap: 30px; 
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    max-width: 180px; 
+    flex-wrap: wrap;
+}
+
+.phone{
+    display: flex;    
+    gap: 30px; 
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    max-width: 180px;
+    flex-wrap: wrap;
+}
+
+.time{
+    display: flex;    
+    gap: 30px; 
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    max-width: 180px;
+    flex-wrap: wrap;
+
+}
+
+.e-mail{
+    display: flex;    
+    gap: 30px; 
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    max-width: 180px;
+    flex-wrap: wrap;
+}
+
+/* footer -------------------- */
+
+.footer{
+/* Dark */
+background: #404149;
+}
+
+.footer-wrapper{
+    display: flex;
+  
+    align-items: center;
+   justify-content: space-between;
+
+
+   /* max-width: 729px; */
+}
+
+.footer-text1{
+/* p */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+padding: 2%;
+margin-left: 20%;
+}
+.footer-text2{
+/* p */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* text-align: right; */
+color: #FFFFFF;
+padding: 2%;
+margin-right: 20%;
+}
